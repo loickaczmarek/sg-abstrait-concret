@@ -11,12 +11,15 @@ Identifier les clés pour adapter votre discours à votre audience.
 Construire des explications percutantes en un temps limité.
 Répondre aux questions en fonction des attentes des différents rôles professionnels.
 Cet atelier interactif vous propose un cadre bienveillant pour pratiquer et améliorer vos compétences de vulgarisation. Venez jouer, apprendre, et découvrir de nouvelles façons de partager vos idées !
+
 ---
+
 Un jeu de carte par défaut est disponible [ici](cartes-base.pdf)
 
 Pour modifier et adapter le jeu de carte, la méthode de génération est à la [fin](#générer-les-cartes).
 
 ---
+
 # Règles
 
 ## Nombre de joueurs
