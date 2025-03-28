@@ -1,0 +1,19 @@
+{
+  "name": "cartes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "extract": "node src/extract.js",
+    "generate": "node src/generate.js",
+    "start": "npm run extract && npm run generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.1.1",
+    "xlsx": "^0.18.5"
+  }
+}

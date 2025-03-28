@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartes à imprimer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .page {
+            display: grid;
+            grid-template-columns: repeat(4, 70mm);
+            grid-template-rows: repeat(5, 70mm);
+            gap: 0mm;
+            width: 297mm;
+            height: 210mm;
+            page-break-after: always;
+        }
+
+        .deck-name {
+            position: absolute;
+            top: 3mm;
+            left: 3mm;
+            font-size: 16px;
+            color: blue;
+        }
+
+        .card {
+            width: 70mm;
+            height: 70mm;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            color: darkblue;
+            position: relative;
+        }
+
+        .card-content {
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+<!-- Les cartes seront insérées ici -->
+</body>
+</html>
