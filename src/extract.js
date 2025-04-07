@@ -7,8 +7,8 @@ const decks = {};
 workbook.SheetNames.forEach(sheetName => {
     const sheet = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
     decks[sheetName] = {
-        sujets: sheet.map(row => row['Sujets']),
-        roles: sheet.map(row => row['Rôles'])
+        sujets: sheet.map(row => row['Sujets']).filter(value => value !== undefined),
+        roles: sheet.map(row => row['Rôles']).filter(value => value !== undefined)
     };
 });
 
