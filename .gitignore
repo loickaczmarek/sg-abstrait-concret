@@ -1,3 +1,8 @@
+#intern
+data/cartes.pdf
+data/output.html
+data/data.json
+
 # Logs
 logs
 *.log
@@ -134,3 +139,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Intellij
+*.iml
+.idea
